@@ -1,0 +1,144 @@
+top_conferences:
+  - aaai
+  - ijcai
+  - icml
+  - neurips
+  - nips
+  - cvpr
+  - iccv
+  - eccv
+  - acl
+  - emnlp
+  - kdd
+  - sigir
+  - www
+  - icse
+  - fse
+  - ase
+  - sosp
+  - osdi
+  - nsdi
+  - sigcomm
+  - infocom
+  - mobicom
+  - ccs
+  - sp
+  - usenix
+  - sigmod
+  - vldb
+  - icde
+  - stoc
+  - focs
+  - soda
+  - siggraph
+  - chi
+
+top_journals:
+  - nature
+  - science
+
+doi_patterns:
+  "10\\.18653/v1/.*\\.acl-.*": "acl"
+  "10\\.18653/v1/.*\\.emnlp-.*": "emnlp"
+  "10\\.1145/.*": "acm"
+  "10\\.1109/.*cvpr.*": "cvpr"
+  "10\\.1109/.*iccv.*": "iccv"
+  "10\\.1109/.*eccv.*": "eccv"
+  "10\\.1145/.*sigcomm.*": "sigcomm"
+  "10\\.1145/.*infocom.*": "infocom"
+  "10\\.1145/.*mobicom.*": "mobicom"
+  "10\\.1145/.*ccs.*": "ccs"
+  "10\\.1145/.*sigmod.*": "sigmod"
+  "10\\.1145/.*kdd.*": "kdd"
+  "10\\.1145/.*sigir.*": "sigir"
+  "10\\.1145/.*www.*": "www"
+  "10\\.1145/.*chi.*": "chi"
+  "10\\.1145/.*siggraph.*": "siggraph"
+  "10\\.1145/.*icse.*": "icse"
+  "10\\.1145/.*fse.*": "fse"
+  "10\\.1145/.*ase.*": "ase"
+  "10\\.1145/.*stoc.*": "stoc"
+  "10\\.1145/.*focs.*": "focs"
+  "10\\.1137/.*soda.*": "soda"
+  "10\\.1109/.*vldb.*": "vldb"
+  "10\\.1109/.*icde.*": "icde"
+
+url_patterns:
+  "aclanthology\\.org": "acl"
+  "aclweb\\.org": "acl"
+  "neurips\\.cc": "neurips"
+  "proceedings\\.mlr\\.press": "icml"
+  "openreview\\.net": "iclr"
+  "dl\\.acm\\.org.*sigcomm": "sigcomm"
+  "dl\\.acm\\.org.*infocom": "infocom"
+  "dl\\.acm\\.org.*mobicom": "mobicom"
+  "dl\\.acm\\.org.*ccs": "ccs"
+  "dl\\.acm\\.org.*sigmod": "sigmod"
+  "dl\\.acm\\.org.*kdd": "kdd"
+  "dl\\.acm\\.org.*sigir": "sigir"
+  "dl\\.acm\\.org.*www": "www"
+  "dl\\.acm\\.org.*chi": "chi"
+  "dl\\.acm\\.org.*siggraph": "siggraph"
+  "dl\\.acm\\.org.*icse": "icse"
+  "dl\\.acm\\.org.*fse": "fse"
+  "dl\\.acm\\.org.*ase": "ase"
+  "dl\\.acm\\.org.*stoc": "stoc"
+  "dl\\.acm\\.org.*focs": "focs"
+  "epubs\\.siam\\.org.*soda": "soda"
+  "ieeexplore\\.ieee\\.org.*vldb": "vldb"
+  "ieeexplore\\.ieee\\.org.*icde": "icde"
+  "ieeexplore\\.ieee\\.org.*cvpr": "cvpr"
+  "ieeexplore\\.ieee\\.org.*iccv": "iccv"
+  "link\\.springer\\.com.*eccv": "eccv"
+  "usenix\\.org.*osdi": "osdi"
+  "usenix\\.org.*nsdi": "nsdi"
+  "usenix\\.org.*sosp": "sosp"
+  "usenix\\.org.*security": "usenix_security"
+
+venue_aliases:
+  "proceedings of the .* annual meeting of the association for computational linguistics": "acl"
+  "annual meeting of the association for computational linguistics": "acl"
+  "association for computational linguistics": "acl"
+  "proc\\.? of acl.*": "acl"
+  "acl \\d{4}": "acl"
+  "empirical methods in natural language processing": "emnlp"
+  "emnlp \\d{4}": "emnlp"
+  "advances in neural information processing systems|neurips.*|nips.*": "neurips"
+  "international conference on machine learning|icml.*": "icml"
+  "international conference on learning representations|iclr.*": "iclr"
+  "aaai.*conference.*artificial intelligence": "aaai"
+  "international joint conference.*artificial intelligence|ijcai.*": "ijcai"
+  "ieee conference on computer vision and pattern recognition|cvpr.*": "cvpr"
+  "international conference on computer vision|iccv.*": "iccv"
+  "european conference on computer vision|eccv.*": "eccv"
+  "sigir.*information retrieval": "sigir"
+  "world wide web conference|the web conference|www.*": "www"
+  "knowledge discovery.*data mining|kdd.*": "kdd"
+  "conference.*human factors.*computing systems|chi.*": "chi"
+  "siggraph.*": "siggraph"
+  "acm siggraph.*": "siggraph"
+  "international conference on software engineering|icse.*": "icse"
+  "foundations of software engineering|fse.*": "fse"
+  "automated software engineering|ase.*": "ase"
+  "symposium on operating systems principles|sosp.*": "sosp"
+  "operating systems design and implementation|osdi.*": "osdi"
+  "networked systems design and implementation|nsdi.*": "nsdi"
+  "sigcomm.*": "sigcomm"
+  "acm sigcomm.*": "sigcomm"
+  "infocom.*": "infocom"
+  "ieee infocom.*": "infocom"
+  "mobicom.*": "mobicom"
+  "acm mobicom.*": "mobicom"
+  "computer and communications security|ccs.*": "ccs"
+  "acm ccs.*": "ccs"
+  "ieee symposium on security and privacy|s&p.*": "sp"
+  "usenix security.*": "usenix_security"
+  "sigmod.*": "sigmod"
+  "acm sigmod.*": "sigmod"
+  "very large data bases|vldb.*": "vldb"
+  "international conference on data engineering|icde.*": "icde"
+  "symposium on theory of computing|stoc.*": "stoc"
+  "foundations of computer science|focs.*": "focs"
+  "symposium on discrete algorithms|soda.*": "soda"
+  "nature": "nature"
+  "science": "science"
